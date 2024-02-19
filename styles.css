@@ -239,3 +239,17 @@ nav{
     }
 
 }
+
+@media (max-width:400px){
+    .text{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .text h1{
+        font-size: 1rem;
+    }
+    .text h2{
+        font-size: 0.8rem;
+    }
+
+}
