@@ -22,7 +22,7 @@ window.addEventListener("scroll", () => hideStyleSwitcher("scroll"));
 window.addEventListener("wheel", () => hideStyleSwitcher("wheel"));
 
 // Mobile (touch)
-window.addEventListener("touchstart", () => hideStyleSwitcher("touchstart"));
+//window.addEventListener("touchstart", () => hideStyleSwitcher("touchstart"));
 window.addEventListener("touchmove", () => hideStyleSwitcher("touchmove"));
 
 
@@ -59,4 +59,5 @@ window.addEventListener("load", () => {
     else{
         dayNight.querySelector("i").classList.add("fa-moon");
     }
+
 })
