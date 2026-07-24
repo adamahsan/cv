@@ -786,7 +786,12 @@ h3.my-profession {
 }
 
 .contact .contact-info-item .icon .fa {
-    font-size: 25px;
+    font-size: 35px;
+    color: var(--skin-color);
+}
+
+.contact .contact-info-item .icon .fa-brands {
+    font-size: 35px;
     color: var(--skin-color);
 }
 
